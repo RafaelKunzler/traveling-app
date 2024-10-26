@@ -1,10 +1,10 @@
 // NAVIGATION
 export const NAV_LINKS = [
   { href: '/', key: 'home', label: 'Home' },
-  { href: '/', key: 'how_hilink_work', label: 'How Hilink Work?' },
-  { href: '/', key: 'services', label: 'Services' },
-  { href: '/', key: 'pricing ', label: 'Pricing ' },
-  { href: '/', key: 'contact_us', label: 'Contact Us' },
+  { href: '/', key: 'how_hilink_work', label: 'Como funciona?' },
+  { href: '/', key: 'services', label: 'Serviços' },
+  { href: '/', key: 'pricing ', label: 'Preço' },
+  { href: '/', key: 'contact_us', label: 'Contato' },
 ];
 
 // CAMP SECTION
@@ -18,59 +18,58 @@ export const PEOPLE_URL = [
 // FEATURES SECTION
 export const FEATURES = [
   {
-    title: 'Real maps can be offline',
+    title: 'Mapas podem ser acessados offline',
     icon: '/map.svg',
     variant: 'green',
     description:
-      'We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location',
+      'Oferecemos uma solução para que você possa usar nosso aplicativo durante suas viagens. Sim, temos mapas offline que podem ser utilizados a qualquer momento, mesmo quando não há sinal no local.',
   },
   {
-    title: 'Set an adventure schedule',
+    title: 'Planeje Sua Viagem',
     icon: '/calendar.svg',
     variant: 'green',
     description:
-      "Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, there's no more discussion",
+      "Agende uma aventura com os amigos. Nos feriados, há muitas ofertas interessantes na RotaCerta. Assim, não haverá mais discussões!",
   },
   {
-    title: 'Technology using augment reality',
+    title: 'Tecnologia com inteligência artificial',
     icon: '/tech.svg',
     variant: 'green',
     description:
-      'Technology uses augmented reality as a guide to your hiking trail in the forest to the top of the mountain. Already supported by the latest technology without an internet connection',
+      'A tecnologia utiliza inteligência artificial como guia para a sua trilha de caminhada na floresta até o topo da montanha, já suportada pelas mais recentes inovações.',
   },
   {
-    title: 'Many new locations every month',
+    title: 'novos locais a cada mês',
     icon: '/location.svg',
     variant: 'orange',
     description:
-      'Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing',
+      'Muitos novos locais a cada mês, graças à nossa comunidade mundial de turistas que compartilha suas melhores experiências.',
   },
 ];
 
 // FOOTER SECTION
 export const FOOTER_LINKS = [
   {
-    title: 'Learn More',
+    title: 'Saiba Mais',
     links: [
-      'About Hilink',
-      'Press Releases',
-      'Environment',
-      'Jobs',
-      'Privacy Policy',
-      'Contact Us',
+      'Sobre Nós',
+      'Meio Ambiente',
+      'Trabalhe Conosco',
+      'Política de Privacidade',
+      'Contato',
     ],
   },
   {
-    title: 'Our Community',
+    title: 'Nossa Comunidade',
     links: ['Climbing xixixi', 'Hiking hilink', 'Hilink kinthill'],
   },
 ];
 
 export const FOOTER_CONTACT_INFO = {
-  title: 'Contact Us',
+  title: 'Contatos',
   links: [
-    { label: 'Admin Officer', value: '123-456-7890' },
-    { label: 'Email Officer', value: 'hilink@akinthil.com' },
+    { label: 'Telefone', value: '(11) 91234-5678' },
+    { label: 'Email Officer', value: 'todo@todo.com' },
   ],
 };
 
@@ -80,7 +79,6 @@ export const SOCIALS = {
     '/facebook.svg',
     '/instagram.svg',
     '/twitter.svg',
-    '/youtube.svg',
-    '/wordpress.svg',
+    '/youtube.svg',    
   ],
 };

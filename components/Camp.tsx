@@ -8,13 +8,13 @@ interface CampProps {
   peopleJoined: string;
 }
 
-const Campsite = ({ backgroundImage, title, subtitle, peopleJoined}: CampProps) => {
+const Campsite = ({ backgroundImage, title, subtitle, peopleJoined }: CampProps) => {
   return (
     <div className={`h-full w-full lg:min-w-[1000px] min-w-[400px] ${backgroundImage} bg-cover bg-no-repeat lg:rounded-5xl 2xl:rounded-5xl`}>
       <div className="flex w-full h-full flex-col items-start justify-between p-6 lg:px-20 lg:py-10">
         <div className="flexCenter gap-4">
           <div className="rounded-full bg-green-50 p-4">
-            <Image 
+            <Image
               src="/folded-map.svg"
               alt="map"
               width={28}
@@ -32,7 +32,7 @@ const Campsite = ({ backgroundImage, title, subtitle, peopleJoined}: CampProps) 
           <span className="flex -space-x-4 overflow-hidden">
             {PEOPLE_URL.map((url) => (
               <Image
-              className="inline-block h-10 w-10 rounded-full"
+                className="inline-block h-10 w-10 rounded-full"
                 src={url}
                 key={url}
                 alt="person"
@@ -52,27 +52,29 @@ const Camp = () => {
   return (
     <section className='2xl:max-container padding-container relative flex flex-col py-10 lg:mb-10 lg:py-20 xl mb-20'>
       <div className='hide-scrollbar flex h-[340px] w-full items-start justify-start gap-8 overflow-x-auto lg:h-[400px] xl:h-[640px]'>
-        <Campsite 
+        <Campsite
           backgroundImage="bg-bg-img-1"
-          title="Putuk Truno Camp"
-          subtitle="Prigen, Pasuruan"
-          peopleJoined="50+ Joined"
+          title="Chapada dos Veadeiros"
+          subtitle="Brasil, Goiás"
+          peopleJoined="50+ Participantes"
         />
-        <Campsite 
+        <Campsite
           backgroundImage="bg-bg-img-2"
-          title="Mountain View Camp"
-          subtitle="Somewhere in the Wilderness"
-          peopleJoined="50+ Joined"
+          title="Bosque de Arrayanes"
+          subtitle="Argentina, Neuquén"
+          peopleJoined="50+ Participantes"
         />
       </div>
 
       <div className="flexEnd mt-10 px-6 lg:-mt-60 lg:mr-6">
-        <div className="bg-green-50 p-8 lg:max-w-[500px] xl:max-w-[734px] xl:rounded-5xl xl:px-16 xl:py-20 relative w-full overflow-hidden rounded-3xl">
+        <div className="bg-green-50 p-8 lg:max-w-[500px] xl:max-w-[600px] xl:rounded-5xl xl:px-16 xl:py-20 relative w-full overflow-hidden rounded-3xl">
           <h2 className="regular-24 md:regular-32 2xl:regular-64 capitalize text-white">
-            <strong>Feeling Lost</strong> And Not Knowing The Way?
+            <strong>Perdido</strong> e Sem Saber o Caminho?
           </h2>
           <p className="regular-14 xl:regular-16 mt-5 text-white">
-          Navigate your camping journey with ease! Our expert tips, detailed maps, and insider advice will guide you every step of the way, from choosing the perfect spot to setting up camp like a pro.
+            Planeje sua jornada com facilidade! Nossas dicas de especialistas, 
+            roteiros detalhados e conselhos valiosos guiarão você a cada passo, 
+            desde a escolha do destino perfeito até a organização da viagem como um profissional.          
           </p>
           <Image
             src='/quote.svg'

@@ -12,14 +12,16 @@ const Guide = () => {
           height={50}
         />
         <p className='uppercase regular-18 -mt-1 mb-3 text-green-50'>
-          We are here for you
+          Estamos aqui por você
         </p>
         <div className='flex flex-wrap justify-between gap-5 lg:gap-10'>
-          <h2 className='bold-40 lg:bold-64 xl:max-w-[410px] capitalize'>Guide you to easy path</h2>
-          <p className='regular-16 text-gray-30 xl:max-w-[520px]'>Set out on your camping journey with confidence! Our in-depth guides, 
-            beginner-friendly tips, and step-by-step advice make planning easy, 
-            whether you’re a first-timer or a seasoned explorer. From picking the right gear to 
-            finding hidden trails, we’re here to guide you every step of the way.
+          <h2 className='bold-40 lg:bold-64 xl:max-w-[410px] capitalize'>Iremos facilitar sua jornada.</h2>
+          <p className='regular-16 text-gray-30 xl:max-w-[520px]'>
+            Inicie sua jornada de viagem com confiança! 
+            Nossos roteiros detalhados, dicas para iniciantes e conselhos passo a passo tornam 
+            o planejamento fácil, seja você um viajante de primeira viagem ou um explorador experiente. 
+            Desde a escolha do destino ideal até a descoberta de lugares secretos, estamos aqui 
+            para guiar você em cada etapa do caminho.
           </p>
         </div>
       </div>
@@ -41,18 +43,18 @@ const Guide = () => {
             height={158}
             className='h-full w-auto'
           />
-          <div className='flexBetween flex-col'>
+          <div className='flexBetween flex-col lg:min-w-[180px]'>
             <div className='flex w-full flex-col'>
-              <div className='flexBetween w-full'>
-                <p className='regular-16 text-gray-20'>Destination</p>
-                <p className='bold-16 text-green-50'>48 min</p>
+              <div className='flexBetween w-full gap-6'>
+                <p className='regular-16 text-gray-20'>Destino</p>
+                <p className='bold-16 text-green-50'>1h 48 min</p>
               </div>
-              <p className='bold-20 mt-2'>Aguas Calientes</p>
+              <p className='bold-20 mt-2'>Ubatuba</p>
             </div>
 
             <div className='flex w-full flex-col'>              
-              <p className='regular-16 text-gray-20'>Start track</p>
-              <h4 className='bold-20 mt-2 whitespace-nowrap'>Wonorejo Pasuruan</h4>
+              <p className='regular-16 text-gray-20'>Início</p>
+              <h4 className='bold-20 mt-2 whitespace-nowrap'>São Paulo</h4>
             </div>
           </div>
         </div>
