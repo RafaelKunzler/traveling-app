@@ -74,7 +74,7 @@ export const FOOTER_CONTACT_INFO = {
 };
 
 export const SOCIALS = {
-  title: 'Social',
+  title: 'Nossas Redes',
   links: [
     '/facebook.svg',
     '/instagram.svg',
